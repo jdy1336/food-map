@@ -9,7 +9,7 @@
   * 클릭한 마커로 지도 센터 이동
 5. 카테고리 분류
 */
-
+let url = "http://52.79.157.44:3000";
 /*
 **********************************************************
 1. 지도 생성 & 확대 축소 컨트롤러
@@ -45,7 +45,7 @@ async function getDataSet(category) {
       method: "get",
       url: `http://52.79.157.44:3000/restaurants?category=${qs}`,
       headers: {},
-      data: {},
+      data: {}, 
     });
     console.log("Data fetched:", dataSet.data.result); // Add this line to log the fetched data
     return dataSet.data.result;
