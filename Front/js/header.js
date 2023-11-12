@@ -11,7 +11,7 @@
 로그아웃 버튼 이벤트 연결
 
 */
-let url = "http://52.79.157.44:3000";
+
 
 // 1. 로컬스토리지에서 x-access-token 확인
 const jwt = localStorage.getItem("x-access-token");

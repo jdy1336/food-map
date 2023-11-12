@@ -8,7 +8,7 @@
 5. 요청이 성공하면, jwt를 localstorage에 저장하고 main page 이동
 
 */
-let url = "http://52.79.157.44:3000";
+
 
 const btnSignUp = document.querySelector("#signup");
 
